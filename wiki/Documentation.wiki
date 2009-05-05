@@ -82,3 +82,7 @@ def fire(request):
     response = HttpResponse("hello world!")
     return response
 }}}
+
+Then you'll get something like this:
+
+http://firepy.googlecode.com/files/firepy.png
