@@ -70,10 +70,10 @@ def fire(request):
     logging.critical("critical")
     ab = User.objects.filter(username="serialx").all()
     for i in ab:
-        print i
+        logging.debug(i)
     ab = User.objects.all()
     for i in ab:
-        print i
+        logging.debug(i.groups.all())
     try:
         a(1, 2, "3")
     except:
