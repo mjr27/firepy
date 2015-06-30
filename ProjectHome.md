@@ -1,0 +1,1 @@
+This is a python server library for FirePHP supporting python built-in logging facility and Django.
